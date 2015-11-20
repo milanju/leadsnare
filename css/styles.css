@@ -1,0 +1,145 @@
+/* extended bootstrap 5-column grid */
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-5ths {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-5ths {
+      width: 20%;
+      float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-5ths {
+      width: 20%;
+      float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+      width: 20%;
+      float: left;
+  }
+}
+
+/* fonts */
+@font-face {
+    font-family: 'blessed_day';
+    src: url('../fonts/blessed-webfont.eot');
+    src: url('../fonts/blessed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/blessed-webfont.woff2') format('woff2'),
+         url('../fonts/blessed-webfont.woff') format('woff'),
+         url('../fonts/blessed-webfont.ttf') format('truetype'),
+         url('../fonts/blessed-webfont.svg#blessed_dayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* main */
+body {
+  background-color: #fcfdfd;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+h2 {
+  color: #484848;
+  font-size: 18px;
+}
+
+.container {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.navbar {
+  background-color: #FFF;
+  border-bottom: solid 2px #fafafb;
+  padding-top: 4px;
+  margin-bottom: 0;
+}
+
+.navbar-header {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.navbar-brand {
+  font-family: 'blessed_day';
+  font-size: 60px;
+  color: #000;
+}
+
+.navbar-toggle .icon-bar {
+  color: #000;
+  background-color: #000;
+}
+
+.nav {
+  padding-top: 2px;
+}
+
+.nav li {
+  padding-top: 10px;
+}
+
+.nav li a {
+  padding: 10px;
+  color: #64adcb;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav li a:hover,
+.nav li a:focus {
+  background-color: transparent;
+  color: #5492ab;
+}
+
+@media (min-width: 992px) {
+  .nav li a {
+    padding: 12px 12px;
+    font-size: 18px;
+  }
+}
+
+.nav a.btn-create-link {
+  padding: 8px 12px;
+  background-color: #484848;
+  color: #FFF;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav a.btn-create-link:hover,
+.nav a.btn-create-link:focus {
+  background-color: #383838;
+  color: #FFF;
+}
+
+@media (min-width: 992px) {
+  .nav a.btn-create-link {
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+}
+
+.stats-box {
+  width: 205px;
+  height: 80px;
+  background-color: #FFF;
+  border: solid 1px #ebebeb;
+}
