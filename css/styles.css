@@ -108,7 +108,7 @@ hr {
 }
 
 .nav li {
-  padding-top: 10px;
+  padding-top: 4px;
 }
 
 .nav li a {
@@ -132,6 +132,7 @@ hr {
 }
 
 .nav a.btn-create-link {
+  margin-top: 2px;
   padding: 8px 12px;
   background-color: #484848;
   color: #FFF;
