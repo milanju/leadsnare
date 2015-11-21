@@ -63,9 +63,10 @@ h2 {
 
 h3 {
   color: #484848;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 12px;
   margin-top: 18px;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 hr {
@@ -308,13 +309,41 @@ hr {
   }
 }
 
+.graph-head {
+  overflow: hidden;
+}
+
 .time-icon {
-  margin-right: 10px;
+  margin-right: 8px;
+  padding-bottom: 4px;
 }
 
 .graph-title {
+  display: inline-block;
   color: #818181;
   font-weight: 600;
+
+}
+
+.graph-buttons {
+  float: right;
+  margin-top: 8px;
+}
+
+.graph-btn {
+  width: 66px;
+  background-color: #f5f9fc;
+  color: #b6c5ce;
+  border-color: #eef6fb;
+  border-radius: 2px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.graph-btn-active {
+  background-color: #f0f7fb;
+  color: #b2c3cd;
+  border-color: #dfeff8;
 }
 
 .graph-row {
@@ -335,6 +364,10 @@ hr {
 @media (max-width: 499px) {
   .graph-legend {
     top: -10px;
+  }
+
+  .graph-container {
+    margin-top: 20px;
   }
 }
 

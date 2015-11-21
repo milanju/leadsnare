@@ -150,7 +150,14 @@
         <div class="col-md-6">
           <div class="row graph-row">
             <div class="col-xs-12">
-              <h3 class="graph-title"><img src="./img/time-icon.png" class="time-icon">Time Graph</h3>
+              <div class="graph-head">
+                <img src="./img/time-icon.png" class="time-icon"><h3 class="graph-title">Time Graph</h3>
+                <div class="graph-buttons">
+                  <a href="#" class="btn graph-btn graph-btn-active">Day</a>
+                  <a href="#" class="btn graph-btn">Week</a>
+                  <a href="#" class="btn graph-btn">Month</a>
+                </div>
+              </div>
               <div class="graph-container">
                 <canvas id="timeGraphDays"></canvas>
                 <div id="timeGraphDaysLegend" class="graph-legend"></div>
@@ -164,29 +171,28 @@
                 <span class="stats-label">Times clicked</span>
               </div>
             </div>
-          <div class="col-sm-6">
-            <div class="stats-box">
-              <span class="stats-count">1,742</span>
-              <span class="stats-label">Times pursued</span>
+            <div class="col-sm-6">
+              <div class="stats-box">
+                <span class="stats-count">1,742</span>
+                <span class="stats-label">Times pursued</span>
+              </div>
             </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="stats-box">
-              <span class="stats-count">1,742</span>
-              <span class="stats-label">Most pursued</span>
+            <div class="col-sm-6">
+              <div class="stats-box">
+                <span class="stats-count">1,742</span>
+                <span class="stats-label">Most pursued</span>
+              </div>
             </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="stats-box">
-              <span class="stats-count">1,742</span>
-              <span class="stats-label">Least pursued</span>
+            <div class="col-sm-6">
+              <div class="stats-box">
+                <span class="stats-count">1,742</span>
+                <span class="stats-label">Least pursued</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/graph.js"></script>
