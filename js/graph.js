@@ -1,6 +1,8 @@
 Chart.defaults.global.scaleFontSize = 10;
 Chart.defaults.global.scaleFontColor = "#b1c1ca";
 Chart.defaults.global.scaleFontFamily = "'Open Sans', 'sans-serif'";
+Chart.defaults.global.tooltipFontFamily = "'Open Sans', 'sans-serif'";
+Chart.defaults.global.tooltipTitleFontStyle = "normal";
 
 var daysData = {
   labels: ["SUN","MON","TUES","WED","THURS","FRI","SAT"],
